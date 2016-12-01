@@ -1,0 +1,17 @@
+Index: COOKIE_TEST.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- COOKIE_TEST.php	(date 1480533973000)
++++ COOKIE_TEST.php	(revision )
+@@ -1,6 +1,8 @@
+ 
+ <?php
+ session_start();
++
++echo __DIR__
+ //echo "My session_ID".session_id()
+ $_SESSION
+ if (!isset($_COOKIE['items'])){
+\ No newline at end of file

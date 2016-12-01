@@ -1,0 +1,102 @@
+body {
+   /* background: url("images/wood-482288_1920.jpg") repeat;*/
+	background-color: #A8F6F7;
+    font-size: 15pt !important;
+    font-weight: 200 !important;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p{
+    margin:0;
+}
+
+ul, dl{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+dl{
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3{
+    margin-top: 40px;
+}
+
+#Sheet {
+    height: 850px;
+    margin: 40px auto;
+    position: relative;
+    padding: 0 40px;
+    width: 600px;
+}
+
+#full_name {
+    height: 100px;
+    padding-top: 30px;
+    width: 200px;
+}
+
+table {
+	border-collapse: collapse;
+	border : 2px solid grey;
+    width:100%;  
+    vertical-align: bottom; 
+}	
+ th { 
+    text-align: center;
+    background: #A8F6F7;
+    padding: 5px; 
+    border: 2px solid grey; 
+   }
+ th:hover { 
+    padding: 5px; 
+	background: rgba(172, 202, 230, 0.97);
+    border: 2px solid grey;	
+ }   
+ td { 
+    padding: 5px; 
+	background:  #A8F6F7;
+    border: 1px solid grey;	
+ }
+
+  td:hover { 
+    padding: 5px; 
+	background: rgba(172, 202, 230, 0.97);
+    border: 1px solid grey;	
+ }
+
+#foto img {
+    height: 170px;
+    right: 60px;
+    position: absolute;
+    top:   60px;
+    width: 160px;
+}
+
+#contacts {
+    height: 110px;
+    padding-top: 10px;
+    width: 250px;
+}
+
+#contacts li{
+    padding-bottom: 10px;
+}
+
+#contacts img, #skils img{
+    height: 20px;
+    vertical-align: bottom;
+}
+
+#contacts p{
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+}

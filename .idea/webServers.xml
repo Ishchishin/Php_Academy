@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e218c127-0a42-4052-a138-21ed082080d4" name="phpacademy" url="https://github.com/Ishchishin/Php_Academy_IshchishinSergiy.git">
+        <fileTransfer port="0" mountedRoot="D:\my project" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
