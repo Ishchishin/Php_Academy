@@ -9,12 +9,13 @@
  * 2, 3, т. е. 6.</p>
  * По желанию можете сделать проверку на корректность введения данных пользователем.
  */
-$input=222;
-$sum=0;
+$input=1234;
+$sm=0;
 $str= strval($input);
-for ($i=0; $i < STRLEN($str); $i++ ){
+for ($i=0; $i < strlen($str); $i++ ){
 //   echo substr($str,$i,1 );
-  $sum=$sum+  number_format(substr($str,$i,1 ));
+ // $num=substr($str,$i,1 );
+  $sm =$sm + substr($str,$i,1 );
 }
- echo "<br>Cумма: ". $sum."</br>";
+ echo "<br>Cумма: ". $sm."</br>";
 ?>
