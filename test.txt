@@ -1,5 +1,0 @@
-<?Php
-Echo "<pre>";
-Var_dump($GLOBALS);
-Echo "</pre>";
-?>
