@@ -4,6 +4,8 @@
  * User: Ishchishin
  * Date: 27.11.2016
  * Time: 20:53
+ * Дан массив с элементами 'html', 'css', 'php', 'js', 'jq'.
+ * С помощью цикла foreach выведите эти слова в столбик.</p>
  */
 
 
@@ -15,5 +17,4 @@ foreach ($mas as $value){
        Print $value;
     echo "</pre>";
 }
-
 ?>
