@@ -8,14 +8,12 @@
  * Создать гостевую книгу, где любой человек может оставить комментарий в текстовом поле и добавить его.
  *Все добавленные комментарии выводятся над текстовым полем.
  */
-
 if ((file_exists("test.txt"))&&(!empty("test.txt"))){
     echo "<br>";
     $put =file_get_contents("test.txt",true);
     echo $put;
     echo "<br>";
 }
-
 if (isset($_POST['msg'])){
     if (empty($_POST['coments']) ){
         echo "Achtung!!! Achtung!!! заполните коментарий";
