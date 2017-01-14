@@ -9,22 +9,28 @@
 function bigWorlds($arr){
 
     mb_internal_encoding("UTF-8");
-    for ($i=0; $i<count($arr)-1; $i++){
-        if(mb_strlen($arr[$i])< mb_strlen($arr[$i+1])){
-            $vrem = $arr[$i];
-            $arr[$i]==$arr[$i+1];
-            $arr[$i+1]=$vrem;
-                   }
+    for ($i=0; $i<count($arr); $i++) {
+        for ($j = $i + 1; $j < count($arr)-1 ; $j++) {
+            if (mb_strlen($arr[$i]) < mb_strlen($arr[$j])) {
+                $vrem ="";
+                $vrem = $arr[$i];
+                $arr[$i] = $arr[$j];
+                $arr[$j] = $vrem;
+            }
+        }
     }
+
+    var_dump($arr);
+    echo "<br>",$arr[0],"<br>";
     echo "<br>",$arr[1],"<br>";
     echo "<br>",$arr[2],"<br>";
-    echo "<br>",$arr[3],"<br>";
 
 }
 
 if (isset($_POST['msg'])){
    $comment= $_POST['a'];
    $arr= explode(" ",$comment);
+    var_dump($arr);
     bigworlds($arr);
 }
 
